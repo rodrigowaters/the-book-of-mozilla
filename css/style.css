@@ -1,0 +1,40 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+}
+ 
+body {
+    display: flex;
+    flex-direction: column;
+}
+ 
+header {
+    height: 50px;
+    line-height: 50px;
+    border-bottom: 1px solid black;
+    background: orange;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+ 
+article {
+    padding: 5px;
+    flex: auto;
+    background: grey;
+}
+div{
+	text-align: justify;
+	margin-bottom: 10px;
+	border:  1px solid black;	
+	padding: 5px;
+	border-radius: 5px;
+	font-size: 18px;
+	background: white;
+}
+div:last-child{
+	margin-bottom: 0px;
+}
