@@ -2,53 +2,72 @@
 <html>
     <head>
         <title data-l10n-id="title"></title>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width" />
-        <link rel="stylesheet" href="css/style.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <link rel="stylesheet" href="css/ionic.min.css">
+        <link rel="stylesheet" href="css/custom.css">
         <link rel="shortcut icon" type="image/png" href="images/icon-16.png" />
-        <link rel="prefetch" type="application/l10n" href="locales/locales.ini" />
+        <link rel="prefetch" type="application/l10n" href="data/locales.ini" />
   		<script type="text/javascript" src="js/l10n.js"></script>
   		<script type="text/javascript">
 		    document.webL10n.ready();
-	  </script>
+	  	</script>
     </head>
     <body>
-        <section>
-        	<header data-l10n-id="title"></header>	
-        	<article>
-        		<div>
-		        	<strong>12:10</strong>
-		        	<p data-l10n-id="12-10"></p>
-		        </div>
-		        <div>
-		        	<strong>3:31</strong>
-		        	<p data-l10n-id="3-31"></p>
-		        </div>
-		        <div>
-		        	<strong>7:15</strong>
-		        	<p data-l10n-id="7-15">
-		        </div>
-		        <div>
-		        	<strong>8:20</strong>
-		        	<p data-l10n-id="8-20"></p>
-		        </div>
-		        <div>
-		        	<strong>11:1</strong>
-		        	<p data-l10n-id="11-1"></p>
-		        </div>
-		        <div>
-		        	<strong>11:9</strong>
-		        	<p data-l10n-id="11-9"></p>
-		        </div>
-		        <div>
-		        	<strong>15:1</strong>
-		        	<p data-l10n-id="15-1"></p>
-		        </div>
-		        <div>
-		        	<strong>XX:XX</strong>
-		        	<p data-l10n-id="xx-xx"></p>
-		        </div>
-        	</article>
-        </section>
+        <main id="main" class="">
+            <header class="bar bar-header">
+              <div class="h1 title" data-l10n-id="title"></div>
+            </header>
+            <article class="content has-header">
+	            <div class="card">
+					<div class="item item-divider">
+						<strong>12:10</strong>
+					</div>
+					<div class="item item-text-wrap" data-l10n-id="12-10"></div>
+				</div>
+	            <div class="card">
+					<div class="item item-divider">
+						<strong>3:31</strong>
+					</div>
+					<div class="item item-text-wrap" data-l10n-id="3-31"></div>
+				</div>
+	            <div class="card">
+					<div class="item item-divider">
+						<strong>7:15</strong>
+					</div>
+					<div class="item item-text-wrap" data-l10n-id="7-15"></div>
+				</div>
+	            <div class="card">
+					<div class="item item-divider">
+						<strong>8:20</strong>
+					</div>
+					<div class="item item-text-wrap" data-l10n-id="8-20"></div>
+				</div>
+	            <div class="card">
+					<div class="item item-divider">
+						<strong>11:1</strong>
+					</div>
+					<div class="item item-text-wrap" data-l10n-id="11-1"></div>
+				</div>
+	            <div class="card">
+					<div class="item item-divider">
+						<strong>11:9</strong>
+					</div>
+					<div class="item item-text-wrap" data-l10n-id="11-9"></div>
+				</div>
+	            <div class="card">
+					<div class="item item-divider">
+						<strong>15:1</strong>
+					</div>
+					<div class="item item-text-wrap" data-l10n-id="15-1"></div>
+				</div>
+	            <div class="card">
+					<div class="item item-divider">
+						<strong>XX:XX</strong>
+					</div>
+					<div class="item item-text-wrap" data-l10n-id="xx-xx"></div>
+				</div>
+            </article>
+        </main>
     </body>
 </html>

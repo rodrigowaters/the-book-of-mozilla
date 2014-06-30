@@ -1,0 +1,5 @@
+html, body {height: 100%;width: 100%;padding: 0;margin: 0;}
+body {display: flex;flex-direction: column;}
+main {flex: auto;}
+main article{height: calc(100% - 44px);overflow: auto;overflow-x: hidden;}
+main article div.card div.item-text-wrap{text-align: justify;}
