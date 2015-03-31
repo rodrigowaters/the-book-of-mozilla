@@ -1,4 +1,3 @@
-the-book-of-mozilla
-===================
+The Book of Mozilla
 
-Livro para Firefox OS
+about:mozilla

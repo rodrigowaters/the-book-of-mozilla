@@ -1,6 +1,6 @@
 {
     "name": "O livro de Mozilla",
-    "version": "2.0",
+    "version": "2.2",
     "description": "About:mozilla Firefox OS",
     "launch_path": "/index.html",
     "fullscreen": "true",
