@@ -17,25 +17,26 @@
     </head>
     <body ng-controller="AppCtrl">
 
-    <ion-header-bar class="bar-positive">
-        <div class="h1 title" data-l10n-id="title"></div>
-    </ion-header-bar>
+        <ion-header-bar class="bar-positive">
+            <div class="h1 title" data-l10n-id="title"></div>
+        </ion-header-bar>
 
-    <ion-content>
+        <ion-content>
 
-        <ion-list>
+            <ion-list>
 
-            <ion-item ng-repeat="item in items" item="item" href="#/item/{{item.id}}" class="item-remove-animate">
+                <ion-item ng-repeat="item in items" item="item" href="#/item/{{item.id}}" class="item-remove-animate">
 
-                <div class="item item-divider text-to-right">
-                    {{item.id}}
-                </div>
-                <div class="item item-text-wrap" data-l10n-id="{{item.id}}"></div>
+                    <div class="item item-divider text-to-right">
+                        {{item.id}}
+                    </div>
+                    <div class="item item-text-wrap" data-l10n-id="{{item.id}}"></div>
 
-            </ion-item>
+                </ion-item>
 
-        </ion-list>
+            </ion-list>
 
-    </ion-content>
+        </ion-content>
 
-</body>
+    </body>
+</html>
