@@ -1,42 +1,43 @@
 <!DOCTYPE html>
-<html ng-app="App">
-    <head>
-        <title data-l10n-id="title"></title>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-        <link rel="stylesheet" href="css/ionic.min.css">
-        <link rel="stylesheet" href="css/custom.css">
-        <link rel="shortcut icon" type="image/png" href="images/icon-16.png" />
-        <link rel="prefetch" type="application/l10n" href="data/locales.ini" />
-        <script type="text/javascript" src="js/l10n.js"></script>
-        <script type="text/javascript">
-            document.webL10n.ready();
-        </script>
-        <script type="text/javascript" src="js/ionic.bundle.min.js"></script>
-        <script type="text/javascript" src="js/app.js"></script>
-    </head>
-    <body ng-controller="AppCtrl">
+<html lang="pt-br" ng-app="App">
+<head>
+    <title data-l10n-id="title"></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="shortcut icon" type="image/png" href="images/icon-16.png"/>
+    <link rel="prefetch" type="application/l10n" href="data/locales.ini"/>
+    <link rel="stylesheet" href="bower_components/angular-material/angular-material.min.css">
+    <script type="text/javascript" src="js/l10n.js"></script>
+    <script type="text/javascript">
+        document.webL10n.ready();
+    </script>
+</head>
+<body ng-controller="AppCtrl" ng-cloak layout="column">
 
-        <ion-header-bar class="bar-positive">
-            <div class="h1 title" data-l10n-id="title"></div>
-        </ion-header-bar>
+<md-toolbar class="md-warn">
+    <div class="md-toolbar-tools">
+        <h2 class="md-flex" data-l10n-id="title"></h2>
+    </div>
+</md-toolbar>
 
-        <ion-content>
+<md-content flex layout-padding>
 
-            <ion-list>
+    <md-card ng-repeat="item in items">
+        <md-card-title>
+            <md-card-title-text>
+                <span class="md-headline">{{item.id}}</span>
+                <span class="md-subhead" data-l10n-id="{{item.id}}"></span>
+            </md-card-title-text>
+        </md-card-title>
+    </md-card>
 
-                <ion-item ng-repeat="item in items" item="item" href="#/item/{{item.id}}" class="item-remove-animate">
+</md-content>
 
-                    <div class="item item-divider text-to-right">
-                        {{item.id}}
-                    </div>
-                    <div class="item item-text-wrap" data-l10n-id="{{item.id}}"></div>
+<script src="bower_components/angular/angular.min.js"></script>
+<script src="bower_components/angular-animate/angular-animate.min.js"></script>
+<script src="bower_components/angular-aria/angular-aria.min.js"></script>
+<script src="bower_components/angular-material/angular-material.min.js"></script>
+<script type="text/javascript" src="js/app.js"></script>
 
-                </ion-item>
-
-            </ion-list>
-
-        </ion-content>
-
-    </body>
+</body>
 </html>
