@@ -9,5 +9,8 @@
   "license": "MIT",
   "ignore": [
     "bower_components"
-  ]
+  ],
+  "dependencies": {
+    "angular-material": "^1.0.9"
+  }
 }
