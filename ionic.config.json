@@ -1,6 +1,7 @@
 {
-  "name": "the-book-of-mozilla",
-  "integrations": {},
-  "v2": true,
-  "typescript": true
+  "name": "O Livro de Mozilla",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
 }
