@@ -67,7 +67,7 @@ var HomePage = /** @class */ (function () {
     }
     HomePage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-home',template:/*ion-inline-start:"/Users/rodrigo/public_html/the-book-of-mozilla/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      O Livro de Mozilla\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n  <ion-card *ngFor="let item of items">\n    <ion-card-header text-right>{{item.title}}</ion-card-header>\n    <ion-card-content text-justify>{{item.description}}</ion-card-content>\n  </ion-card>\n\n</ion-content>\n'/*ion-inline-end:"/Users/rodrigo/public_html/the-book-of-mozilla/src/pages/home/home.html"*/
+            selector: 'page-home',template:/*ion-inline-start:"/Users/rodrigo/public_html/the-book-of-mozilla/src/pages/home/home.html"*/'<ion-header>\n  <ion-navbar>\n    <ion-title>\n      O Livro de Mozilla\n    </ion-title>\n  </ion-navbar>\n</ion-header>\n\n<ion-content>\n\n  <ion-card *ngFor="let item of items">\n    <ion-card-header text-right>{{item.title}}</ion-card-header>\n    <ion-card-content padding text-justify>{{item.description}}</ion-card-content>\n  </ion-card>\n\n</ion-content>\n'/*ion-inline-end:"/Users/rodrigo/public_html/the-book-of-mozilla/src/pages/home/home.html"*/
         }),
         __metadata("design:paramtypes", [])
     ], HomePage);
