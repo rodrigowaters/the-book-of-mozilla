@@ -1,7 +1,7 @@
 {
-  "name": "O Livro de Mozilla",
+  "name": "the-book-of-mozilla",
   "integrations": {
     "cordova": {}
   },
-	"type": "angular"
+  "type": "angular"
 }
