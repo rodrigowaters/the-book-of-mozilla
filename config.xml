@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="io.rodrigowaters.the_book_of_mozilla" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="io.rodrigowaters.the_book_of_mozilla" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>O Livro de Mozilla</name>
     <description>
       Livro de Mozilla (originalmente: The Book of Mozilla) é um easter egg encontrado nos navegadores de internet Mozilla, Firefox, Netscape, SeaMonkey e K-Meleon. Pode ser visto quando na barra de endereços é digitado about:mozilla . Trata-se de informações em uma linguagem aparentemente antiga e religiosa. O conteúdo pode variar muito, dependendo de qual navegador e versão o usuário esteja utilizando. Os textos são apresentados na cor branca sobre fundo colorido (vinho ou azul). No final sempre está escrito: from The Book of Mozilla, (de O Livro de Mozilla,) e depois da vírgula são mostrados algo como capítulo e versículo.
       Não existe nenhum livro com o título The Book of Mozilla em realidade. Entretanto, as mensagens a ele associadas, semelhantes em estrutura às do livro bíblico do Apocalipse, retratam, embora de forma velada e via parábolas, fatos ou ocorrências marcantes na história do navegador ou da fundação em questão. Há seis versões oficiais dos textos (além de várias outras, apócrifas); em ordem cronológica: 12:10, 3:31, 7:15, 11:1, 11:9 e 15:1. Como não há de fato um livro, a numeração de "capítulo e versículo" faz referência em verdade ao mês e ao dia da ocorrência real do evento aludido no respectivo versículo; podendo a ordem mês:dia figurar invertida nas traduções ao português.
     </description>
-    <author email="rdrgwtrs@gmail.com" href="http://rodrigowaters.github.io/site/">Rodrigo Waters</author>
+    <author email="rdrgwtrs@gmail.com" href="https://rodrigowaters.github.io/">Rodrigo Silva</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
