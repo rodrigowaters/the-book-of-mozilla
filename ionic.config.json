@@ -1,8 +1,8 @@
 {
-	"name": "the-book-of-mozilla",
-	"integrations": {
-		"cordova": {}
-	},
-	"type": "angular",
-	"id": "83da5001"
+  "name": "the-book-of-mozilla",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular",
+  "id": "83da5001"
 }
